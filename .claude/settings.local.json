@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(C:/Users/xiaohui/AppData/Local/Programs/Python/Python314/python.exe -c ' *)",
+      "Read(//d/app dev/YouTube Downloader Pro/**)",
+      "Bash(C:/Users/xiaohui/AppData/Local/Programs/Python/Python314/python.exe -c \"from youtube_downloader.downloader.format_parser import FormatParser; print\\('bot:', FormatParser._format_error\\('Sign in to confirm you are not a bot'\\)[:50]\\); print\\('cookie:', FormatParser._format_error\\('failed to load cookies from Chrome'\\)[:50]\\); print\\('generic:', FormatParser._format_error\\('Some error'\\)[:50]\\)\")"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+# YouTube Downloader Pro - 依赖清单
+# ==========================================
+# 安装方式: pip install -r requirements.txt
+# ==========================================
+
+# GUI 框架
+PySide6>=6.5.0
+
+# YouTube 下载核心
+yt-dlp>=2024.1.1
+
+# HTTP 请求 (封面/字幕下载)
+requests>=2.28.0
+
+# ========== 可选依赖 ==========
+
+# 系统主题检测 (跟随系统主题)
+# pip install darkdetect
+darkdetect>=0.8.0
+
+# ========== 外部工具 ==========
+# FFmpeg - 音视频合并 (需单独安装)
+# 下载地址: https://ffmpeg.org/download.html
+# Windows: 将 ffmpeg.exe 添加到 PATH 或在设置中指定路径
