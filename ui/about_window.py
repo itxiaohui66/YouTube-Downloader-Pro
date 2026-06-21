@@ -38,7 +38,7 @@ class AboutWindow(QDialog):
 
     DEVELOPER = "xiaohui"
     DEVELOPER_WEBSITE = "https://www.itxiaohui.top"
-    GITHUB_URL = "https://github.com/xiaohui/youtube-downloader-pro"
+    GITHUB_URL = "https://github.com/itxiaohui66/YouTube-Downloader-Pro"
 
     def __init__(self, parent: QWidget | None = None) -> None:
         """初始化关于窗口
